@@ -14,7 +14,7 @@ const Detail = () => {
 
   useEffect(() => {
     dispatch(productsActionDetail(id))
-  }, [dispatch])
+  }, [])
 
   const increment =(stock)=>{
     if(count <= stock){
